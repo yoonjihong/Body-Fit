@@ -9,5 +9,6 @@ module.exports = {
     '~components/(.*)$': '<rootDir>/src/components/$1',
     '~assets/(.*)$': '<rootDir>/src/assets/$1',
     '~pages/(.*)$': '<rootDir>/src/pages/$1',
+    '~datas/(.*)$': '<rootDir>/src/datas/$1',
   },
 };
