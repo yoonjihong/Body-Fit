@@ -1,5 +1,6 @@
 import { ThemeProvider } from 'styled-components';
 
+import StartPage from '~pages/Start';
 import { InitStyled } from '~styles/init';
 import { defaultTheme } from '~styles/theme';
 
@@ -13,6 +14,8 @@ function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
       <InitStyled />
+
+      <StartPage />
     </ThemeProvider>
   );
 }
